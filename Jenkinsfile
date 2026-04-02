@@ -1,6 +1,6 @@
 pipeline{
   agent any
-  Stages{
+  stages{
     stage( 'Checkout'){
       steps{
             git url :'https://github.com/Sahilsalunkhe001/my_first_rep.git',branch:'master'
